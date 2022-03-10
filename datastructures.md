@@ -5,6 +5,6 @@
         <span class="fs-4">Replit</span>
     </header>
     <div class="row justify-content-center" style="margin: 10%;">
-        <iframe height="800px" width="100%" src="https://repl.it/@aidanywu/apcsptri3#menu.py?lite=true"></iframe>
+        <iframe height="800px" width="100%" src="https://repl.it/@aidanywu/apcsptri3?lite=true"></iframe>
     </div>
 </div>
