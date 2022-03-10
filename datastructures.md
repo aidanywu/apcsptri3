@@ -1,1 +1,11 @@
 {% include navigation.html %}
+
+<div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom border-primary text-dark">
+        <span class="fs-4">Replit</span>
+    </header>
+
+    <div class="row justify-content-center" style="margin: 2%;">
+        <iframe height="1000px" src="https://repl.it/@aidanywu/apcsptri3?lite=true"></iframe>
+    </div>
+</div>
