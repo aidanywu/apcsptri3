@@ -1,10 +1,10 @@
 {% include navigation.html %}
 
-<header class="pb-3 mb-4 border-bottom border-primary text-dark">
-    <span class="fs-4"><a href="https://github.com/aidanywu/apcsptri3/">Code on Github</a></span>
-</header>
 
 <div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom border-primary text-dark">
+        <span class="fs-4"><a href="https://github.com/aidanywu/apcsptri3/">Code on Github</a></span>
+    </header>
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <span class="fs-4">Replit</span>
     </header>
