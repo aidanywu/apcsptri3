@@ -6,18 +6,17 @@ import animation2
 
 
 main_menu = [
-    ["Swap", "swap.py"],
-    ["Keypad", "keypad.py"]
+    ["Swap", swap.run],
+    ["Keypad", keypad.run],
 ]
 
 drawingsub_menu = [
-    ["Christmas Tree", "christmastree.py"]
+    ["Christmas Tree", christmastree.options]
 ]
 
 animationsub_menu = [
-    ["Animation 1", "animation1.py"],
+    ["Animation 1", animation1.run],
     ["Animation 2", animation2.ship]
-    # ["Animation 2", "animation2.py"]
 ]
 
 border = "=" * 25

@@ -4,7 +4,7 @@ def sort(a, b):
     return a, b
 
 
-if __name__ == "__main__":
+def run():
   a = input("first number")
   b = input("second numer")
   print(', '.join(sort(a, b)))

@@ -166,7 +166,7 @@ def ship20():
     print("\u001b[34m -------------------------------------------- \u001b[37m")
 
 
-if __name__ == "__main__":
+def run():
   os.system("clear")
   time.sleep(.1)
   ship1()
