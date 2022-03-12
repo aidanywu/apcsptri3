@@ -1,5 +1,7 @@
 {% include navigation.html %}
 
+[Code](https://github.com/aidanywu/apcsptri3/)
+
 <div class="container py-4">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <span class="fs-4">Replit</span>
