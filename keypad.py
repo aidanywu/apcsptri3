@@ -5,5 +5,5 @@ def keypad(m):
         print()
 
 
-if __name__ == "__main__":
+def run():
   keypad([[1,2,3],[4,5,6],[7,8,9]])

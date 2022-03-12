@@ -13,7 +13,7 @@ def tree(n, p):
     print(' ' * (n - ((y - 1) //2 + 1)), f'{p}' * y, ' ' * (n - ((y - 1) //2 + 1)))
 
 
-if __name__ == "__main__":
+def options():
   try:
     n = int(input("How tall do you want the Christmas tree?\n"))
     p = input("What character should be used to build the tree?\n")
