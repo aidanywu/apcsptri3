@@ -13,3 +13,8 @@
 #### 2. They can educate the nonempowered ones about technology. I could help people that runs into problems with their technology.
 
 #### 3. There are paper and red tapes which stops people from becoming digitally empowered. Such barriers in Del Norte are the block on some connections. Examples elsewhere are any rules that deny people of their access of devices or the internet.
+
+### Notes:
+#### 5.1: Technology can be used in a variety of ways for good and bad. A key example is drones, which can be used for search and rescue, while also being used to stalk people. Dopamine can affect how we act and what we accomplish. We sometimes choose tasks that spark dopamine instead of actually important tasks. Automated phone trees are convenient but sometimes don't get the best results. Changing up the phone tree can accomplish more things. A phone tree is an example of if-else statements.
+
+#### 5.2: The digital divide is a major issue in many places. Factors that create digital are money, location, or education. Digital fears ( cyberbullying, sexting, or student privacy) may be expanding and influencing the digital divide.
