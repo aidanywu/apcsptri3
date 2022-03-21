@@ -38,6 +38,7 @@ infodb = [{
           }
           ]
 ```
+This is infodb which is a list of dictionaries that stores the data.
 
 InfoDB Loops
 ```
@@ -66,3 +67,16 @@ def recursivel():
   recursive(0)
 ```
 These are the functions called to display infodb's data.
+
+
+Fibonacci Algorithmn:
+```
+def fibterm(a, b, n):
+  if n == 1:
+    return a
+  elif n == 2:
+    return b
+  elif n > 2:
+    return fibterm(a, b, n - 1) + fibterm(a, b, n - 2) # recursive to add the previous two terms in the fibonacci sequence
+```
+This function returns the specified term of the fibonacci sequence with the non-optional options of choosing the two starting numbers.
