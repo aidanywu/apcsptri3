@@ -11,9 +11,9 @@
 
 
 ### Notes:
-#### 5.3: 
+#### 5.3: Explicit data are those you intentionally give. Implicit data are those that are received without you giving them explicitly. Bias in algorithms and data can cause bias in computer innovations. Programmers should reduce bias. All softwares can be biased. Some bias are intentional while others are not. 
 
-#### 5.4: 
+#### 5.4: Crowdsourcing allows you to share and obatin information, and also participate in distributed computing. Crypto-currencies and covid data all use crowdsourcing. API’s are used to obtain data from crowdsourcing.
 
 
 ### 5.1
