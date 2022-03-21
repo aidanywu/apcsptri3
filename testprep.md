@@ -5,9 +5,9 @@
 
 
 ### 5.4
-#### 1. An idea would be 
+#### 1. An idea would be to have a survey on what features they would most like to see for everyone to fill out. This way, more people would be able to be interested in coding and the finished features.
 
-#### 2. Yes, 
+#### 2. Yes, our project would be able to create more features that try to include eveyone which makes it better.
 
 
 ### Notes:
