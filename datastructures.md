@@ -12,3 +12,57 @@
         <iframe height="800px" width="100%" src="https://repl.it/@aidanywu/apcsptri3?lite=true"></iframe>
     </div>
 </div>
+
+
+InfoDB:
+```
+infodb = [{
+            "Name": "John",
+            "Favorite Subject": "Taking APs",
+            "Top 3 Universities": ["Harvard", "MIT", "Stanford"]
+          },
+          {
+            "Name": "Jon",
+            "Favorite Subject": "Taking more APs than John",
+            "Top 3 Universities": ["MIT", "Caltech", "Princeton"]
+          },
+          {
+            "Name": "Bob",
+            "Favorite Subject": "Physical Education",
+            "Top 3 Universities": ["I Shou University", "National Yunlin University Science and Technology", "University of Mazandaran"]
+          },
+          {
+            "Name": "BobbY",
+            "Favorite Subject": "Intangible Education",
+            "Top 3 Universities": ["California State University--Long Beach", "Worcester Polytechnic Institute", "Oakland University"]
+          }
+          ]
+```
+
+InfoDB Loops
+```
+def forl():
+  for i in range(len(infodb)):
+    print_data(i)
+
+
+def whilel():
+  n = 0
+  while n < len(infodb):
+    print_data(n)
+    n += 1
+  return
+
+
+def recursive(n):
+  if n >= len(infodb):
+    return
+  elif n < len(infodb):
+    print_data(n)
+    return recursive(n + 1)
+
+
+def recursivel():
+  recursive(0)
+```
+These are the functions called to display infodb's data.
