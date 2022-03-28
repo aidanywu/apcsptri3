@@ -2,6 +2,8 @@
 
 ### Review Tickets
 
-[Week 1 Review Ticket Lists and Loops](https://github.com/aidanywu/apcsptri3/issues/3)
+[Week 2 - Classy Functions Review Ticket](https://github.com/aidanywu/apcsptri3/issues/4)
 
-[Week 0 Review Ticket Github Pages](https://github.com/aidanywu/apcsptri3/issues/2)
+[Week 1 - Lists and Loops Review Ticket](https://github.com/aidanywu/apcsptri3/issues/3)
+
+[Week 0 - Plans, Team, Jobs Review Ticket](https://github.com/aidanywu/apcsptri3/issues/2)
