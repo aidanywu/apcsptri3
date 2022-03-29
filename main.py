@@ -75,6 +75,7 @@ def mathsubmenu():
     mathmenu_list.append(["Factorial", facsubmenu])
     mathmenu_list.append(["Multifactorial (Imperative)", macimpsubmenu])
     mathmenu_list.append(["Multifactorial (OOP)", macoopsubmenu])
+    mathmenu_list.append(["Simple Currency Converter", "week2/simplemoneyconverter.py"])
     buildMenu(title, mathmenu_list)
 
 
