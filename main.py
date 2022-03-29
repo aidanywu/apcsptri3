@@ -137,13 +137,13 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 def buildMenu(banner, options):
     print(banner)
-    prompts = {0: ["\u001b[31m\u001b[1mExit", None]}
+    prompts = {0: ["\u001b[1mExit", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
     for key, value in prompts.items():
         print(key, '->', value[0])
-    choice = input("\u001b[37;1m\u001b[4mType your choice> ")
+    choice = input("\u001b[37;1mType your choice> ")
     try:
         choice = int(choice)
         if choice == 0:
