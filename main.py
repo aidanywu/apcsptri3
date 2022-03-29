@@ -136,13 +136,13 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 def buildMenu(banner, options):
     print(banner)
-    prompts = {0: ["Exit", None]}
+    prompts = {0: ["\u001b[31mExit", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
     for key, value in prompts.items():
         print(key, '->', value[0])
-    choice = input("Type your choice> ")
+    choice = input("\u001b[43;1m\u001b[37;1mType your choice> ")
     try:
         choice = int(choice)
         if choice == 0:
@@ -165,9 +165,9 @@ def buildMenu(banner, options):
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", mathsubmenu])
-    menu_list.append(["Manipulation", manipulationsubmenu])
-    menu_list.append(["Print", printsubmenu])
+    menu_list.append(["\u001b[34mMath", mathsubmenu])
+    menu_list.append(["\u001b[32mManipulation", manipulationsubmenu])
+    menu_list.append(["\u001b[35mPrint", printsubmenu])
     buildMenu(title, menu_list)
 
 
