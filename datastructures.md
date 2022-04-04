@@ -80,3 +80,23 @@ def fibterm(a, b, n):
     return fibterm(a, b, n - 1) + fibterm(a, b, n - 2) # recursive to add the previous two terms in the fibonacci sequence
 ```
 This function returns the specified term of the fibonacci sequence with the non-optional options of choosing the two starting numbers.
+
+
+Classes:
+```
+class Factorial:
+  def __call__(self, n):
+    if n <= 1:
+      return 1
+    return n * self(n - 1)
+
+def test():
+  fac = Factorial()
+  n = random.randint(0, 100)
+  print(f"Factorial of {n}:", fac(n))
+  n = random.randint(0, 100)
+  print(f"Factorial of {n}:", fac(n))
+  n = random.randint(0, 100)
+  print(f"Factorial of {n}:", fac(n))
+```
+The class Factorial is defined and within it the call function is implemented. We have to do ```fac = Factorial()``` to convert the class to an object. And then when we call the object, the call function within it is called.
