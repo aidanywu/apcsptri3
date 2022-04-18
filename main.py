@@ -10,11 +10,11 @@ import week2.palindrome as pal
 import week2.multifactorialimperative as macimp
 import week2.multifactorialoop as macoop
 
-#####
+##### Main Menu
 main_menu = [
 ]
 
-#
+# Second Menu with functions, separated by Math, Manipulation, and Print
 mathsub_menu = [
 ]
 
@@ -27,7 +27,7 @@ printsub_menu = [
     ["Christmas Tree", christmastree.options]
 ]
 
-##
+## Third Menu of all the Functions within optins from the second menu
 animationsub_menu = [
     ["Animation 1", animation1.run],
     ["Animation 2", animation2.ship]
@@ -96,27 +96,27 @@ def printsubmenu():
     buildMenu(title, printmenu_list)
 
 ##
-def animationsubmenu():
+def animationsubmenu(): # this function builds the aminiation submenu
     title = "Animation" + banner
     buildMenu(title, animationsub_menu)
 
 
-def infodbsubmenu():
+def infodbsubmenu(): # this function builds the infoDB submenu
     title = "InfoDB" + banner
     buildMenu(title, infodbsub_menu)
 
 
-def fibsubmenu():
+def fibsubmenu(): # this function builds the fibonacci submenu
     title = "Fibonacci" + banner
     buildMenu(title, fibsub_menu)
 
 
-def facsubmenu():
+def facsubmenu(): # this function builds the factorial submenu
     title = "Factorial" + banner
     buildMenu(title, facsub_menu)
 
 
-def palsubmenu():
+def palsubmenu(): # this function builds the palindrome submenu
     title = "Palindrome" + banner
     buildMenu(title, palsub_menu)
 
@@ -135,7 +135,7 @@ border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 
-def buildMenu(banner, options):
+def buildMenu(banner, options): # the function that actually builds all the menus with all the options and functions
     print(banner)
     prompts = {0: ["\u001b[1mExit", None]}
     for op in options:
@@ -146,11 +146,11 @@ def buildMenu(banner, options):
     choice = input("\u001b[37;1mType your choice> ")
     try:
         choice = int(choice)
-        if choice == 0:
+        if choice == 0: # exits out of this recursive fucntion
             return
         try:
             action = prompts.get(choice)[1]
-            action()
+            action() # runs the function inside the files
         except TypeError:
             try:
                 exec(open(action).read())

@@ -1,12 +1,12 @@
 import random
 
-
+# function used to find a multifactorial
 def macimp(n, k):
   if n <= 1:
     return 1
   return n * macimp(n - k, k)
 
-
+# random test cases for Multifactorials
 def test():
   n = random.randint(0, 750)
   k = random.randint(0, 900)
@@ -18,7 +18,7 @@ def test():
   k = random.randint(0, 900)
   print(f"{n}!({k}) =", macimp(n, k))
 
-
+# find any multifactorial for any number
 def run():
   try:
     n = int(input("What multifactorial? "))

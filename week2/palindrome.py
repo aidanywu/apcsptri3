@@ -1,15 +1,15 @@
 import re
 
-
+# function used to check palindrome
 class Palindrome:
   def __call__(self, n):
-    n = re.sub(r'[^a-zA-Z0-9]', '', n).lower()
+    n = re.sub(r'[^a-zA-Z0-9]', '', n).lower() # removes everything except letters and numbers, also makes everything lowercase (uses regex)
     if n == n[::-1]:
       return " "
     else:
       return " not "
 
-
+# test cases for Palindrome
 def test():
   pal = Palindrome()
   n = "palindrome"
@@ -25,7 +25,7 @@ def test():
   n = "this is not a palindrome"
   print(f'"{n}" is' + pal(n) + "a palindrome")
 
-
+# Palindrome tester to see if input is a palindrome
 def run():
   pal = Palindrome()
   try:

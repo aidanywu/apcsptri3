@@ -25,7 +25,7 @@ infodb = [{
           ]
 
 
-def print_data(n):
+def print_data(n): # used to print a dictionary from infoDB
     print("\t", infodb[n]["Name"])
     print("Favorite Subject: ", end="")
     print(infodb[n]["Favorite Subject"])
@@ -36,12 +36,12 @@ def print_data(n):
     print()
 
 
-def forl():
+def forl(): # prints all the data from InfoDB with a for loop
   for i in range(len(infodb)):
     print_data(i)
 
 
-def whilel():
+def whilel(): # prints all the data from InfoDB with a while loop
   n = 0
   while n < len(infodb):
     print_data(n)
@@ -49,7 +49,7 @@ def whilel():
   return
 
 
-def recursive(n):
+def recursive(n): # prints all the data from InfoDB through recursive means
   if n >= len(infodb):
     return
   elif n < len(infodb):
@@ -57,5 +57,5 @@ def recursive(n):
     return recursive(n + 1)
 
 
-def recursivel():
+def recursivel(): # calls the recursive function with a parameter of 0
   recursive(0)
