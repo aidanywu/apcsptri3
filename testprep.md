@@ -4,6 +4,7 @@
 
 | **Week** |**Notes**|
 | ------------- |---------------|
+| Final Quiz 3 |[Score and Corrections](https://aidanywu.github.io/apcsptri3/finalquiz3)|
 | Study Plan |[Plan](https://aidanywu.github.io/apcsptri3/studyplan)|
 | Final Quiz 2 |[Score and Corrections](https://aidanywu.github.io/apcsptri3/finalquiz2)|
 | Final Quiz 1 |[Score and Corrections](https://aidanywu.github.io/apcsptri3/finalquiz1)|
